@@ -22,5 +22,5 @@ trt模型加载+测试
 
 数据可视化——pyqt用户界面，手写数组识别
 
-
+<img src="..\image\date5.29.jpg" alt="date5.29" style="zoom:50%;" />
 
