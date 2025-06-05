@@ -11,10 +11,25 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>手写字符识别</string>
+   <string>手写数字识别</string>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="topMargin">
+     <number>30</number>
+    </property>
     <item>
      <widget class="QLabel" name="titleLabel">
       <property name="text">
@@ -49,6 +64,12 @@
       </item>
       <item>
        <layout class="QVBoxLayout" name="controlLayout">
+        <property name="topMargin">
+         <number>20</number>
+        </property>
+        <property name="spacing">
+         <number>15</number>
+        </property>
         <item>
          <widget class="QPushButton" name="clearButton">
           <property name="text">
@@ -96,6 +117,9 @@
            </font>
           </property>
           <layout class="QVBoxLayout" name="resultLayout">
+           <property name="topMargin">
+            <number>15</number>
+           </property>
            <item>
             <widget class="QLabel" name="resultLabel">
              <property name="text">
@@ -176,4 +200,4 @@
  </widget>
  <resources/>
  <connections/>
-</ui>
+</ui>    
